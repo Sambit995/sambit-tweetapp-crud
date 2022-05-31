@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: tweet-app-sk
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/tweet_db
+    username: localhost
+    password: root
+logging:
+  file:
+    path: './config/logs'
+    name: ${logging.file.path}/tweet-app-sk.log
+  level:
+    org.springframework.web: ERROR
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
