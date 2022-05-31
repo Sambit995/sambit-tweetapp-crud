@@ -2,9 +2,9 @@ spring:
   application:
     name: tweet-app-sk
   datasource:
-    url: jdbc:mysql://127.0.0.1:3306/tweet_db
-    username: localhost
-    password: root
+    url: jdbc:mysql://tweetdb.czh24lsbfqhx.us-east-1.rds.amazonaws.com:3306/tweet_db
+    username: admin
+    password: password
 logging:
   file:
     path: './config/logs'

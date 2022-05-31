@@ -31,3 +31,77 @@
 2022-05-31 09:13:36.991  INFO 22396 --- [http-nio-8080-exec-9] com.tweetapp.controller.UserController   : Get All Users
 2022-05-31 09:13:36.992  INFO 22396 --- [http-nio-8080-exec-9] com.tweetapp.service.UserService         : In getAllusers Request-> Getting All Users 
 2022-05-31 09:13:37.414  INFO 22396 --- [http-nio-8080-exec-9] com.tweetapp.service.UserService         : Exiting getAllusers Response -> [User(userId=1, firstName=Sambit, lastName=Mishra, gender=male, dob=1995-07-16, emailId=sambit.mishra1@ibm.com, password=Test1@123), User(userId=2, firstName=SambitUpdatd, lastName=Mishra, gender=male, dob=1995-07-16, emailId=sambit.mishra2@ibm.com, password=Test@123)]
+2022-05-31 10:08:40.283  INFO 22396 --- [RMI TCP Connection(77)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-05-31 10:08:40.649  INFO 22396 --- [RMI TCP Connection(77)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-31 10:08:40.661  INFO 22396 --- [RMI TCP Connection(77)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-05-31 10:08:40.662  INFO 22396 --- [RMI TCP Connection(77)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-05-31 10:08:40.680  INFO 22396 --- [RMI TCP Connection(77)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-05-31 10:08:57.772  INFO 16936 --- [main] com.tweetapp.TweetAppServiceApplication  : Starting TweetAppServiceApplication using Java 11.0.12 on LAPTOP-A2Q3H41A with PID 16936 (C:\Users\002CDU744\required_data\project_workspace\thinktank\sambit-tweetapp-crud\target\classes started by 002CDU744 in C:\Users\002CDU744\required_data\project_workspace\thinktank\sambit-tweetapp-crud)
+2022-05-31 10:08:57.775  INFO 16936 --- [main] com.tweetapp.TweetAppServiceApplication  : No active profile set, falling back to default profiles: default
+2022-05-31 10:08:59.520  INFO 16936 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2022-05-31 10:08:59.608  INFO 16936 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 73 ms. Found 2 JPA repository interfaces.
+2022-05-31 10:09:00.452  INFO 16936 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-05-31 10:09:00.475  INFO 16936 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-31 10:09:00.476  INFO 16936 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.39]
+2022-05-31 10:09:00.649  INFO 16936 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-31 10:09:00.650  INFO 16936 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2783 ms
+2022-05-31 10:09:00.953  INFO 16936 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-05-31 10:09:00.968  INFO 16936 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-05-31 10:09:04.988  INFO 16936 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-05-31 10:09:05.074  INFO 16936 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-31 10:09:05.170  INFO 16936 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.23.Final
+2022-05-31 10:09:05.393  INFO 16936 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-05-31 10:09:05.520  WARN 16936 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-31 10:09:05.823  INFO 16936 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoint(s) beneath base path '/actuator'
+2022-05-31 10:09:05.964  INFO 16936 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-05-31 10:09:07.233  INFO 16936 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-31 10:09:07.246  INFO 16936 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-31 10:09:07.291  INFO 16936 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-31 10:09:07.687  INFO 16936 --- [RMI TCP Connection(3)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-31 10:09:07.827  INFO 16936 --- [main] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2022-05-31 10:09:08.302  INFO 16936 --- [main] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2022-05-31 10:09:08.305  INFO 16936 --- [main] com.tweetapp.TweetAppServiceApplication  : Started TweetAppServiceApplication in 11.166 seconds (JVM running for 12.433)
+2022-05-31 10:09:20.523  INFO 16936 --- [http-nio-8080-exec-1] com.tweetapp.controller.UserController   : Get All Users
+2022-05-31 10:09:20.524  INFO 16936 --- [http-nio-8080-exec-1] com.tweetapp.service.UserService         : In getAllusers Request-> Getting All Users 
+2022-05-31 10:09:22.797  INFO 16936 --- [http-nio-8080-exec-1] com.tweetapp.service.UserService         : Exiting getAllusers Response -> [User(userId=1, firstName=Sambit, lastName=Mishra, gender=male, dob=1995-07-16, emailId=sambit.mishra1@ibm.com, password=Test1@123), User(userId=2, firstName=SambitUpdatd, lastName=Mishra, gender=male, dob=1995-07-16, emailId=sambit.mishra2@ibm.com, password=Test@123)]
+2022-05-31 10:09:31.556  INFO 16936 --- [RMI TCP Connection(10)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-05-31 10:09:31.830  INFO 16936 --- [RMI TCP Connection(10)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-31 10:09:31.833  INFO 16936 --- [RMI TCP Connection(10)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-05-31 10:09:31.834  INFO 16936 --- [RMI TCP Connection(10)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-05-31 17:29:45.565  INFO 9276 --- [main] com.tweetapp.TweetAppServiceApplication  : Starting TweetAppServiceApplication using Java 11.0.12 on LAPTOP-A2Q3H41A with PID 9276 (C:\Users\002CDU744\required_data\project_workspace\thinktank\sambit-tweetapp-crud\target\classes started by 002CDU744 in C:\Users\002CDU744\required_data\project_workspace\thinktank\sambit-tweetapp-crud)
+2022-05-31 17:29:45.575  INFO 9276 --- [main] com.tweetapp.TweetAppServiceApplication  : No active profile set, falling back to default profiles: default
+2022-05-31 17:29:47.944  INFO 9276 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2022-05-31 17:29:48.043  INFO 9276 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 85 ms. Found 2 JPA repository interfaces.
+2022-05-31 17:29:49.969  INFO 9276 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-05-31 17:29:49.988  INFO 9276 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-31 17:29:49.989  INFO 9276 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.39]
+2022-05-31 17:29:50.272  INFO 9276 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-31 17:29:50.273  INFO 9276 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4638 ms
+2022-05-31 17:29:51.093  INFO 9276 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-05-31 17:29:51.130  INFO 9276 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-05-31 17:29:55.482  INFO 9276 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-05-31 17:29:55.857  INFO 9276 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-31 17:29:56.094  INFO 9276 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.23.Final
+2022-05-31 17:29:56.647  INFO 9276 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-05-31 17:29:56.759  WARN 9276 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-31 17:29:57.360  INFO 9276 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoint(s) beneath base path '/actuator'
+2022-05-31 17:29:57.523  INFO 9276 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-05-31 17:29:59.282  INFO 9276 --- [RMI TCP Connection(3)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-31 17:30:00.007  INFO 9276 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-31 17:30:00.041  INFO 9276 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-31 17:30:00.136  INFO 9276 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-31 17:30:01.155  INFO 9276 --- [main] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2022-05-31 17:30:02.343  INFO 9276 --- [main] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2022-05-31 17:30:02.349  INFO 9276 --- [main] com.tweetapp.TweetAppServiceApplication  : Started TweetAppServiceApplication in 18.047 seconds (JVM running for 19.95)
+2022-05-31 17:33:30.492  INFO 9276 --- [http-nio-8080-exec-10] com.tweetapp.controller.TweetController  : In getAllUserTweet UserName sambit.mishra1@ibm.com 
+2022-05-31 17:33:30.494  INFO 9276 --- [http-nio-8080-exec-10] com.tweetapp.service.TweetService        : In getAllUserTweet Request-> sambit.mishra1@ibm.com 
+2022-05-31 17:33:31.608  INFO 9276 --- [http-nio-8080-exec-10] com.tweetapp.service.TweetService        : Exiting getAllUserTweet Response -> [Tweet(tweetId=2, userName=sambit.mishra1@ibm.com, tweet=hey, this is my first tweet, created=2022-05-30 10:15:15.0, likes={"sambit.mishra2@ibm.com":1}, replies={"sambit.mishra2@ibm.com":["it looks nice too !"]}), Tweet(tweetId=3, userName=sambit.mishra1@ibm.com, tweet=hey, this is my second tweet, created=2022-05-30 10:16:54.0, likes={"sambit.mishra2@ibm.com":1}, replies={"sambit.mishra2@ibm.com":["it looks nice too !"]})]
+2022-05-31 17:33:40.672  INFO 9276 --- [http-nio-8080-exec-6] com.tweetapp.controller.UserController   : Get All Users
+2022-05-31 17:33:40.673  INFO 9276 --- [http-nio-8080-exec-6] com.tweetapp.service.UserService         : In getAllusers Request-> Getting All Users 
+2022-05-31 17:33:42.679  INFO 9276 --- [http-nio-8080-exec-6] com.tweetapp.service.UserService         : Exiting getAllusers Response -> [User(userId=1, firstName=Sambit, lastName=Mishra, gender=male, dob=1995-07-16, emailId=sambit.mishra1@ibm.com, password=Test1@123), User(userId=2, firstName=SambitUpdatd, lastName=Mishra, gender=male, dob=1995-07-16, emailId=sambit.mishra2@ibm.com, password=Test@123)]
+2022-05-31 17:33:58.097  INFO 9276 --- [RMI TCP Connection(12)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-05-31 17:33:58.306  INFO 9276 --- [RMI TCP Connection(14)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-05-31 17:33:58.388  INFO 9276 --- [RMI TCP Connection(15)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-05-31 17:33:58.717  INFO 9276 --- [RMI TCP Connection(12)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-31 17:33:58.720  INFO 9276 --- [RMI TCP Connection(12)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-05-31 17:33:58.721  INFO 9276 --- [RMI TCP Connection(12)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
